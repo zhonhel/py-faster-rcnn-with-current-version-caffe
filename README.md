@@ -3,7 +3,8 @@ py-faster-rcnn with current version Caffe.
 
 <h2>Explanation</h2>
 
-The original py-faster-rcnn's Caffe is a very old version, and it can't be compiled with CUDNN v7.1.
+The original (https://github.com/rbgirshick/py-faster-rcnn) py-faster-rcnn's Caffe is a very old version, 
+and it can't be compiled with CUDNN v7.1.
 
 So I replace the Caffe in it, and thus this repo's py-faster-rcnn can be compiled with CUDNN v7.1.
 
