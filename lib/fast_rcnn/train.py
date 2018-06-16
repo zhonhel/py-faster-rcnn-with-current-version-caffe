@@ -81,7 +81,7 @@ class SolverWrapper(object):
                  if cfg.TRAIN.SNAPSHOT_INFIX != '' else '')
         filename = (self.solver_param.snapshot_prefix + infix +
                     '_iter_{:d}'.format(self.solver.iter) + '.caffemodel')
-        filename = os.path.join('/home/storage/wsh/6.13newTrial/coco2014-1branch/', filename)
+        filename = os.path.join(self.output_dir, filename)
 
         net.save(str(filename))
         print 'Wrote snapshot to: {:s}'.format(filename)
