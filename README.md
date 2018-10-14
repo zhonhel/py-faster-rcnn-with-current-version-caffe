@@ -13,4 +13,4 @@ comparing to the original py-faster-rcnn.
 
 <h2>Usage</h2>
 
-Same as original py-faster-rcnn, and you can use CUDA9.1 and CUDNN v7.1.
+Same as original py-faster-rcnn, and you can use CUDA 9.1 and CUDNN v7.1.
